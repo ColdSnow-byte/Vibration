@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Vibration</string>
+
+    <string name="screen_title">马达震动</string>
+
+    <string name="action_intermittent">间歇震动</string>
+    <string name="action_intermittent_desc">震 300ms · 停 500ms 循环</string>
+    <string name="action_continuous">持续震动</string>
+    <string name="action_continuous_desc">马达持续振动，直到再次点击</string>
+
+    <string name="status_idle">待机中</string>
+    <string name="status_idle_desc">点击下方按钮开始震动</string>
+    <string name="status_intermittent">间歇震动中</string>
+    <string name="status_intermittent_desc">正在按 300ms / 500ms 的节奏循环震动</string>
+    <string name="action_function">函数震动</string>
+    <string name="action_function_desc">按 ImGui 面板中的函数曲线调制振幅</string>
+
+    <string name="status_continuous">持续震动中</string>
+    <string name="status_continuous_desc">马达正在持续振动</string>
+    <string name="status_function">函数震动中</string>
+    <string name="status_function_desc">振幅按当前函数 / 频率变化，调参会立即生效</string>
+    <string name="status_unavailable">设备不支持震动</string>
+
+    <string name="error_no_vibrator">当前设备没有可用的震动马达</string>
+    <string name="hint_toggle">再次点击正在运行的按钮即可停止</string>
+
+    <string name="cd_toggle_overlay">显示 / 隐藏 ImGui 悬浮窗</string>
+
+    <string name="advanced_title">高级调参</string>
+    <string name="advanced_desc">持续震动是否无缝与设备马达驱动有关，可切换策略或调整单段时长试试</string>
+    <string name="strategy_waveform">循环波形</string>
+    <string name="strategy_oneshot">单次续期</string>
+    <string name="label_segment">单段时长：%1$d 秒</string>
+    <string name="label_amplitude">使用最大振幅 255</string>
+</resources>
